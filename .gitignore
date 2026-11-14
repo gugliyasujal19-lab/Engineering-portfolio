@@ -1,0 +1,41 @@
+# C / C++
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+build/
+cmake-build-*/
+.vscode/
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
